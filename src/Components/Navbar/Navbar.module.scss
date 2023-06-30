@@ -1,0 +1,24 @@
+@import '../../index.scss';
+
+.bgNav{
+  background-color: $lightBgColor;
+  
+}
+a,a:hover{
+  color: $fontColor !important;
+}
+.iconsNav{
+
+display: flex;
+align-items: center;
+letter-spacing: 10px;
+font-size: 20px;
+margin-right: 20px;
+cursor: pointer;
+}
+.styles.navbarBrand{
+  font-weight: bolder !important;
+}
+.logoImg{
+  width: 100px;
+}

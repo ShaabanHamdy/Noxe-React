@@ -1,0 +1,80 @@
+@import url("http://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap");
+$bgColor: #131722;
+$lightBgColor: rgba(30, 41, 82, 0.1);
+$bgTransperan: rgba(19, 91, 117, 0.6);
+$fontColor: #fff;
+$borderColor: #a8a8a83d;
+$borderHeight: 1px;
+$secondFontColor: #949cb0;
+$fontFamily: "Montserrat Alternates", sans-serif;
+
+body {
+  background-color: $bgColor;
+  color: $fontColor;
+  font-family: $fontFamily;
+}
+
+.rNput{
+    border: 1px solid  $fontColor ;
+    border-radius: 10px;
+}
+@media screen and (min-width: 760px) and (max-width: 1400px){
+  .colMd4{
+    width: 25%;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 1400px) {
+  .navbar-toggler {
+    background-color: rgb(255, 255, 255) !important;
+  }
+ 
+  .form-control{
+    margin-top: 5px !important;
+    width: 100% !important;
+  }
+  .containerRegister , .containerLogin{
+    text-align: center !important;
+    width: 100% !important;
+  }
+  form {
+    
+    color: tomato !important;
+    
+
+  }
+  .float-end{
+    float: none !important;
+  }
+  
+  .iconsNav {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    line-height: 60px;
+  }
+
+  input {
+    width: 150px !important;
+    margin: auto;
+  }
+  .navbar-brand {
+    margin-left: 0px !important;
+  }
+  .row {
+    margin-top: 0px !important;
+  }
+  #navbarSupportedContent {
+    text-align: center;
+  }
+}
+.alert{
+  width: fit-content;
+}
+.gendes{
+  cursor:auto;
+}
+.active{
+  border: 0px solid transparent;
+  border-radius: 10px;
+}
+// ---------------------------------------------------
